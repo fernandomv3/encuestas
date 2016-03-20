@@ -8,6 +8,10 @@
     font-weight: bold;
 }
 
+html{
+  overflow: hidden;
+}
+
 body {
   font-family: Helvetica, Arial, sans-serif;
 }
