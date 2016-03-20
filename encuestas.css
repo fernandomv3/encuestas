@@ -1,0 +1,115 @@
+@font-face {
+    font-family: Helvetica;
+    src: url("Helvetica.ttf");
+}
+@font-face {
+    font-family: Helvetica;
+    src: url("Helvetica-Bold.ttf");
+    font-weight: bold;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.filter{
+  display: inline-block;
+  margin-top: 2em;
+  width: 19%;
+}
+
+.filter label{
+  display: block;
+  padding-bottom: 0.5em;
+  font-weight: bold;
+}
+
+.filter select{
+  border-radius: 0;
+  border-color: #000000;
+  background-color: #FFFFFF;
+}
+
+.svg-container {
+  display: inline-block;
+  position: relative;
+  width: 80%;
+  vertical-align: top;
+  margin-bottom: 2em;
+}
+.svg-content-responsive {
+  display: inline-block;
+  width: 100%;
+}
+
+.bar{
+  fill:#EEE;
+  stroke:none;
+}
+
+.axis path, .axis line{
+  stroke:#333;
+  fill:none;
+  shape-rendering: crispEdges;
+}
+
+.axis.y path{
+  stroke:none;
+  fill:none;
+}
+
+text{
+  fill:#333;
+  font-size: 0.9em;
+}
+.text-label{
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+text.chart-title{
+  font-size:2em;
+}
+
+.bar.keiko-fujimori{
+  fill:#B2912F;
+}
+.bar.pedro-pablo-kuszynski{
+  fill:#5DA5DA;
+}
+.bar.alfredo-barnechea{
+  fill:#FAA43A;
+}
+.bar.veronika-mendoza{
+  fill:#60BD68;
+}
+.bar.alan-garcia{
+  fill:#F17CB0;
+}
+.bar.alejandro-toledo{
+  fill:#4D4D4D;
+}
+.bar.antero-flores-araoz{
+  fill:#B276B2;
+}
+.bar.vladimir-cerron{
+  fill:#DECF3F;
+}
+.bar.nano-guerra{
+  fill:#F15854;
+}
+.bar.miguel-hilario{
+  fill:#4D4D4D;
+}
+.bar.yehude-simon{
+  fill:#5DA5DA;
+}
+.bar.francisco-diez-canseco{
+  fill:#FAA43A;
+}
+.bar.gregorio-santos{
+  fill:#60BD68;
+}
+.bar.fernando-olivera{
+  fill:#F17CB0;
+}
