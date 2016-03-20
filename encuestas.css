@@ -46,6 +46,19 @@ body {
   width: 100%;
 }
 
+@media screen and (max-width: 48em){
+  .svg-container, .filter{
+    width: 100%;
+  }
+  .filter{
+    margin-top: 0;
+  }
+  .filter label{
+    display: inline-block;
+  }
+}
+
+
 .bar{
   fill:#EEE;
   stroke:none;
