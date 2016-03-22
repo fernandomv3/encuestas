@@ -64,7 +64,7 @@ var svg = d3.select(".svg-container").append("svg")
   .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
 d3.select("svg")
-  .attr("title","Actualizado el 22/03/16 a las 8:21 a.m. Datos obtenidos de http://www.eleccionesenperu.com/encuestas-presidenciales-peru.php")
+  //.attr("title","Actualizado el 22/03/16 a las 8:21 a.m. Datos obtenidos de http://www.eleccionesenperu.com/encuestas-presidenciales-peru.php")
   .append("g")
   .append("text")
   .attr("class","chart-title")
