@@ -64,13 +64,13 @@ var svg = d3.select(".svg-container").append("svg")
   .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
 d3.select("svg")
+  .attr("title","Actualizado el 22/03/16 a las 8:21 a.m. Datos obtenidos de http://www.eleccionesenperu.com/encuestas-presidenciales-peru.php")
   .append("g")
   .append("text")
   .attr("class","chart-title")
   .attr("x",(width + margin.left + margin.right)/2)
   .attr("y",margin.top/2)
   .attr("text-anchor", "middle")
-  .attr("title","Actualizado el 22/03/16 a las 8:21 a.m. Datos obtenidos de http://www.eleccionesenperu.com/encuestas-presidenciales-peru.php")
   .text("Encuesta Presidencial");
 
 //drawing axes for the first time
