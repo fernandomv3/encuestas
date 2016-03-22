@@ -9,7 +9,7 @@ var margin = {
   right: 60
 }
 
-var options = ['IPSOS', 'DATUM', 'CPI', 'IMA', 'VOX POPULI', 'IDICE', 'CIT'];
+var options = ['IPSOS', 'DATUM', 'CPI', 'GFK', 'IMA', 'VOX POPULI', 'IDICE', 'CIT'];
 
 var textPadding = 22;
 
@@ -70,6 +70,7 @@ d3.select("svg")
   .attr("x",(width + margin.left + margin.right)/2)
   .attr("y",margin.top/2)
   .attr("text-anchor", "middle")
+  .attr("title","Actualizado el 22/03/16 a las 8:21 a.m. Datos obtenidos de http://www.eleccionesenperu.com/encuestas-presidenciales-peru.php")
   .text("Encuesta Presidencial");
 
 //drawing axes for the first time
