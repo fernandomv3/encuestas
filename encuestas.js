@@ -71,7 +71,7 @@ d3.select("svg")
   .attr("x",(width + margin.left + margin.right)/2)
   .attr("y",margin.top/2)
   .attr("text-anchor", "middle")
-  .text("Encuesta Presidencial");
+  .text("Encuesta Presidencial - Per√ 2016");
 
 //drawing axes for the first time
 svg.append("g")
